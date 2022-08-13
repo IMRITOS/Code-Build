@@ -1,0 +1,17 @@
+package com.spring.codebuild;
+
+import com.spring.codebuild.Service.EmailSerivceImpl;
+import com.spring.codebuild.models.EmailDetails;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.event.ApplicationReadyEvent;
+import org.springframework.context.event.EventListener;
+
+@SpringBootApplication
+public class CodeBuildApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(CodeBuildApplication.class, args);
+    }
+}
